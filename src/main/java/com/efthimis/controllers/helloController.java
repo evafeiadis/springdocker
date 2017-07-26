@@ -12,10 +12,20 @@ public class helloController {
 
     @RequestMapping("/")
     public String hi(){
-        return "hi motherfuckers";
+        return "hello controller";
 
 
     }
+
+
+    @RequestMapping("/creator")
+    public String helloFromCreator() {
+
+        return "helloFromCreator !";
+    }
+
+
+
 
 
 }
